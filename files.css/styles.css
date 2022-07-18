@@ -1,0 +1,451 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+    width: 100%;
+  background-color: #FAFCFF;
+ }
+
+ header{
+  width: 100%;
+  height: 80vh;
+   background-image : url('../images/Rectangle 21.svg') ;
+    margin: auto;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ }
+  
+  
+ .nav{
+    width: 80%;
+    margin: auto;
+   
+   
+ } 
+ 
+ .navi{
+   display: none;
+   
+ } 
+ .img1{
+  
+    display: flex;
+   gap: 50%;
+    margin-left: 2%;
+    padding: 2%;
+ } 
+ 
+ .nav h1{
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    margin : 30px auto 10px auto;
+ } 
+ .nav p{
+    font-size: 9px;
+    line-height: 15px;
+    color: white;
+    margin: 10px auto;
+    
+ }
+ 
+ .those{
+  
+    position: relative;
+    width: 80%;
+    margin: auto;
+    
+    
+ } 
+ .first{
+    position: absolute;
+  
+ } 
+ .second{
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    
+ } 
+ .third{
+    position: absolute;
+    top: 13rem;
+    left: 4rem;
+ }
+
+ .cards{
+    width:80%;
+    margin: 5rem  auto;
+    text-align: center;
+
+ } 
+ .cards img{
+    width: 100%;
+    height: 100px;
+
+ } 
+ .single{
+   width: 80%;
+    border: 2px solid  #2996FD;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    
+
+ } 
+ .single h3,
+ .single img,
+ .single p{
+    margin: 10px auto;
+
+ } 
+ .single h3{
+   color: #2996FD;
+
+ } 
+ .single p{
+   line-height: 25px;
+
+ } 
+ .sin{
+   background-color: #2996FD;
+
+ } 
+ .sin h3,
+ .sin p{
+   color: white;
+
+ } 
+ .about{
+  background-color: #2996FD;
+  padding: 10px;
+
+ } 
+ .woa{
+  text-align: center;
+
+ } 
+ .aboutt{
+   width: 80%;
+   margin: auto;
+  text-align: center;
+   background-color: #2996FD;
+  
+
+ } 
+ .aboutt img{
+   width: 100%;
+   margin-top: 20px;
+
+ } 
+ .about p,
+ .about h3{
+   color: white;
+ } 
+ .about h3{
+   margin-top: 30px;
+   
+ } 
+ .quo{
+  display: none;
+   
+ } 
+ 
+ 
+ .about p{
+  line-height: 15px;
+  font-size: 10px;
+ } 
+ .about button{
+  padding: 10px 30px;
+  background-color: white;
+  color: #2996FD;
+  border: 1px solid #2996FD ;
+  border-radius: 8px;
+  margin: 20px auto;
+ } 
+ .thrift{
+  width: 60%;
+  margin: auto;
+ text-align: center;
+ 
+ 
+ 
+ }
+ 
+ .thrift h2{
+  margin: 20px auto;
+ }
+ .thrift p{
+  line-height: 15px;
+  font-size: 10px;
+  margin-bottom: 20px;
+ }
+ .the{
+  border: 1px solid #2996FD;
+  padding: 20px;
+  border-radius: 10px;
+
+ }
+ .othe{
+  width: 100%;
+  
+
+ } 
+ .the h3{
+ color: #2996FD;
+ text-align: left;
+ 
+ 
+ }   
+ .mont{
+  background-color: #2996FD;
+  border-radius: 50%;
+  padding:  30px ;
+  text-align: center;
+  color: white;
+font-size: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px;
+
+ 
+ } 
+ .mont .go{
+  font-size: 30px;
+ 
+ }
+
+ .spa{
+  font-size: 10px;
+ 
+ }
+ .spat{
+ width: 15px;
+ 
+ }
+ .btn{
+  background: linear-gradient(90deg, #2996FD 0%, #1343BD 100%);
+padding: 10px 30px;
+color: white;
+white-space: nowrap;
+border:1px solid #1343BD;
+margin-top: 15px;
+border-radius: 8px;
+ 
+ }
+ .that{
+ background-color: #2996FD;
+ 
+ }
+ .that h3{
+color: white;
+ 
+ }
+ .mon{
+background-color: white;
+ color: #2996FD;
+ }
+ .btnn{
+background-color: white;
+ color: #2996FD;
+ 
+padding: 10px 30px;
+
+white-space: nowrap;
+border:1px solid white;
+margin-top: 15px;
+border-radius: 8px;
+ }
+ 
+ 
+ .for{
+background-color: #2996FD;
+ width: 100%;
+ }
+ .for h2{
+color: white;
+margin: 10px 0px 15px 40px;
+
+font-size: 18px;
+ }
+ .fo{
+
+ width: 90%;
+ margin: auto;
+ overflow: scroll;
+ padding: 40px;
+ }
+ .slide{
+
+ display: flex;
+ gap: 5px;
+ }
+ .slider{
+background: rgba(34, 88, 228, 0.56);
+
+width: 200px;
+height: 40vh;
+
+border-radius: 10px;
+}
+.slider img{
+width: 170px;
+
+
+}
+
+.slider:hover{
+background-color: white;
+ 
+ }
+
+ 
+ 
+ .text{
+font-size: 15px;
+ line-height: 20px;
+ margin: 10px auto;
+ text-align: center;
+ 
+ }
+ .text p{
+color:  #75787E;
+ }
+ .thod{
+margin-top: 90px;
+
+ }
+ .thod{
+
+margin: auto 10px;
+
+ }
+ .des{
+background-color:#b9b7b7;
+border-radius: 50%;
+
+ }
+ .dest{
+background-color:white;
+border-radius: 50%;
+
+ }
+ 
+ 
+
+ 
+ 
+
+.foot{
+background-color: black;
+ width: 100%;
+ }
+ .flex{
+width: 90%;
+margin: auto;
+padding: 40px;
+ }
+ .foot p{
+color: white;
+font-size: 10px;
+line-height: 20px;
+ }
+ .copyright{
+color: white;
+font-size: 10px;
+margin: 10px auto;
+ }
+ .foot h6{
+color: white;
+margin: 10px auto;
+
+ }
+ .fto{
+display: flex;
+justify-content: space-between;
+margin: 30px auto;
+ }
+
+ @media (min-width:500px) {
+    .cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   gap: 5px;
+
+ } 
+ .quo{
+  display: none;
+  }
+.wao{
+ margin: 20px auto;
+
+ } 
+ .aboutt{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-content: center;
+  align-items: center;
+
+ }
+ 
+ 
+ }
+  @media (min-width:768px) {
+   .headflex{
+   display: grid;
+   grid-template-columns: 1fr 3fr ;
+   justify-content: center;
+   align-items: center;
+   
+   gap: 5px;
+
+ } 
+    .cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   gap: 5px;
+
+ } 
+ .aboutt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+ } 
+ .dos {
+  display: flex;
+ flex-direction: column;
+  
+
+ } 
+ 
+ .quo{
+  display: contents;
+
+
+
+}
+.woa{
+  display: none;
+ }
+ .othe{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+
+ } 
+}
+ 
+ 
+
+ 
+ 
+
+
+
+
