@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+    width: 100%;
+  background-color: #E5E5E5;
+ }
+
+ header{
+  width: 100%;
+ height: 80vh;
+   background-image : url('../images/Rectangle 21.svg') ;
+    margin: auto;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ }
+  
+  
+ .nav{
+    width: 80%;
+    margin: auto;
+   
+   
+ } 
+ 
+ .navi{
+   display: none;
+   
+ } 
+ .img1{
+ padding: 30px;
+    display: flex;
+   gap: 60%;
+    
+ } 
+ .headflex{
+    width: 100%;
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   justify-content: center;
+   align-items: center;
+  gap: 10%;
+  
+  margin: 40px auto;
+ 
+   }
+   .inner{
+  
+    display: flex;
+  flex-direction: column;
+ gap: 80px;
+  
+ } 
+ .inner h1{
+  font-size: 40px;
+    
+  
+ } 
+   .those img{
+
+    width: 100%;
+ }
+ .inquiry {
+    width: 80%;
+    margin: 40px auto;
+    
+ }
+ .singles {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 40px auto;
+text-align: center;
+ }
+ .mar{
+  margin: 20px auto;
+    
+  
+ } 
+ .forms{
+  background-color: white;
+ border-radius: 8px;
+ padding: 40px;
+ 
+    
+  
+ } 
+ .fir{
+  padding: 10px 5px;
+  background-color: grey;
+    
+  
+ } 
+ .foot{
+background-color: black;
+
+ }
+ .flex{
+width: 80%;
+margin: auto;
+padding: 40px;
+ }
+ .foot p{
+color: white;
+font-size: 10px;
+line-height: 20px;
+ }
+ .copyright{
+color: white;
+font-size: 10px;
+margin: 10px auto;
+ }
+ .foot h6{
+color: white;
+margin: 10px auto;
+
+ }
+ .fto{
+display: flex;
+justify-content: space-between;
+margin: 30px auto;
+ }
+
+
+
+  @media (min-width:768px) {
+   
+ } 
+ @media (min-width:1024px) {
+   
+ 
+ .img1{
+  
+    display: flex;
+   gap: 60%;
+   
+ } 
+    .navi{
+   display:contents;
+   
+ }
+ ul{
+  list-style-type: none;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .img1{
+ 
+    gap: 40%;
+ } 
+  .list{
+color: white;
+
+ }
+ button{
+   padding: 10px 30px;
+   white-space: nowrap;
+   border-radius: 8px;
+   background-color:white;
+   border: 1px solid white ;
+ color: #2996FD;
+margin-left: 70px;
+font-size: 20px;
+ }
+
+ .secimg{
+   display:none;
+   
+ }
+ .flex{
+display: grid;
+grid-template-columns: 2fr 3fr;
+
+
+justify-content: space-around;
+align-items: center;
+ }
+ .fto{
+display: grid;
+grid-template-columns: 3fr 2fr;
+justify-content: space-around;
+align-items: center;
+
+gap: 150px;
+ }
+  }
+ 

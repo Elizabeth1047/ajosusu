@@ -6,12 +6,12 @@
 }
 body{
     width: 100%;
-  background-color: #FAFCFF;
+  background-color: #E5E5E5;
  }
 
  header{
   width: 100%;
-  height: 80vh;
+  height: 60vh;
    background-image : url('../images/Rectangle 21.svg') ;
     margin: auto;
     background-size:cover ;
@@ -20,7 +20,7 @@ body{
   
   
  .nav{
-    width: 80%;
+    width: 60%;
     margin: auto;
    
    
@@ -33,7 +33,7 @@ body{
  .img1{
   
     display: flex;
-   gap: 50%;
+   gap: 60%;
     margin-left: 2%;
     padding: 2%;
  } 
@@ -76,24 +76,31 @@ body{
     left: 4rem;
  }
 
- .cards{
+ .ter{
     width:80%;
     margin: 5rem  auto;
-    text-align: center;
+    
 
  } 
+ 
+
+  
  .cards img{
     width: 100%;
     height: 100px;
 
- } 
+ }
+ .later {
+   display: none;
+font-size: 40px;
+ }
  .single{
-   width: 80%;
+   width: 90%;
     border: 2px solid  #2996FD;
     margin: 50px auto;
     padding: 20px;
     border-radius: 8px;
-    
+    gap: 20px;
 
  } 
  .single h3,
@@ -119,8 +126,15 @@ body{
    color: white;
 
  } 
- .about{
+ .bout{
+ 
   background-color: #2996FD;
+
+ } 
+ .about{
+  width: 80%;
+  margin: auto;
+  
   padding: 10px;
 
  } 
@@ -129,8 +143,7 @@ body{
 
  } 
  .aboutt{
-   width: 80%;
-   margin: auto;
+  
   text-align: center;
    background-color: #2996FD;
   
@@ -139,11 +152,14 @@ body{
  .aboutt img{
    width: 100%;
    margin-top: 20px;
+  
 
  } 
+ 
  .about p,
  .about h3{
    color: white;
+   line-height: 70px;
  } 
  .about h3{
    margin-top: 30px;
@@ -156,7 +172,7 @@ body{
  
  
  .about p{
-  line-height: 15px;
+  line-height: 20px;
   font-size: 10px;
  } 
  .about button{
@@ -168,7 +184,7 @@ body{
   margin: 20px auto;
  } 
  .thrift{
-  width: 60%;
+  width: 80%;
   margin: auto;
  text-align: center;
  
@@ -178,23 +194,22 @@ body{
  
  .thrift h2{
   margin: 20px auto;
+  
  }
  .thrift p{
   line-height: 15px;
   font-size: 10px;
   margin-bottom: 20px;
+ 
  }
  .the{
   border: 1px solid #2996FD;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 1rem;
 
  }
- .othe{
-  width: 100%;
-  
-
- } 
+ 
  .the h3{
  color: #2996FD;
  text-align: left;
@@ -249,6 +264,7 @@ color: white;
  .mon{
 background-color: white;
  color: #2996FD;
+
  }
  .btnn{
 background-color: white;
@@ -265,7 +281,9 @@ border-radius: 8px;
  
  .for{
 background-color: #2996FD;
- width: 100%;
+ 
+ 
+ 
  }
  .for h2{
 color: white;
@@ -275,34 +293,33 @@ font-size: 18px;
  }
  .fo{
 
- width: 90%;
+ width: 80%;
  margin: auto;
- overflow: scroll;
+ overflow: auto;
  padding: 40px;
  }
+
  .slide{
 
  display: flex;
- gap: 5px;
+ justify-content: space-between;
  }
  .slider{
-background: rgba(34, 88, 228, 0.56);
-
+background-color: white;
 width: 200px;
-height: 40vh;
+height: 25vh;
 
 border-radius: 10px;
+margin: 10px;
+
 }
 .slider img{
-width: 170px;
-
+width: 200px;
+height: 100px;
 
 }
 
-.slider:hover{
-background-color: white;
- 
- }
+
 
  
  
@@ -315,6 +332,7 @@ font-size: 15px;
  }
  .text p{
 color:  #75787E;
+
  }
  .thod{
 margin-top: 90px;
@@ -343,10 +361,10 @@ border-radius: 50%;
 
 .foot{
 background-color: black;
- width: 100%;
+
  }
  .flex{
-width: 90%;
+width: 80%;
 margin: auto;
 padding: 40px;
  }
@@ -370,39 +388,130 @@ display: flex;
 justify-content: space-between;
 margin: 30px auto;
  }
+ 
+ @media (min-width:768px) {
+  header{
+  width: 100%;
+  height: 40vh;
+   background-image : url('../images/Rectangle 21.svg') ;
+    margin: auto;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ }
+ .nav{
+    width: 80%;
+    margin: auto;
+   
+   
+ } 
+  .headflex{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   gap: 5px;
+  
+   padding: 20px;
 
- @media (min-width:500px) {
+ } 
+ .those{
+  
+    position: relative;
+    width: 90%;
+    margin: auto;
+   bottom: 6rem;
+    
+ } 
     .cards{
    display: grid;
    grid-template-columns: 1fr 1fr ;
    gap: 5px;
+   
 
  } 
+ 
  .quo{
   display: none;
   }
 .wao{
  margin: 20px auto;
 
+ }
+ .about p{
+  line-height: 25px;
+  font-size: 20px;
  } 
- .aboutt{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  justify-content: center;
-  align-items: center;
+ .othe{
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+padding: 20px;
+ } 
+ .for h2{
+color: white;
+margin: 10px 0px 15px 40px;
+text-align: justify;
+font-size: 18px;
+ } 
 
- }
  
  
  }
-  @media (min-width:768px) {
-   .headflex{
+  @media (min-width:1240px) {
+    .navi{
+   display:contents;
+   
+ }
+ ul{
+  list-style-type: none;
    display: grid;
-   grid-template-columns: 1fr 3fr ;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    justify-content: center;
    align-items: center;
+
+ }
+ .img1{
+ 
+    gap: 40%;
+ } 
+  .list{
+color: white;
+
+ }
+ button{
+   padding: 10px 40px;
+   white-space: nowrap;
+   border-radius: 8px;
+   background-color:white;
+   border: 1px solid white ;
+ color: #2996FD;
+margin-left: 70px;
+ }
+
+ .secimg{
+   display:none;
    
-   gap: 5px;
+ }
+    
+    
+    header{
+  width: 100%;
+  height: 60vh;
+   background-image : url('../images/Rectangle 2134.svg') ;
+    margin: auto;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ }
+   .headflex{
+   display: grid;
+   grid-template-columns: 1fr 1fr  ;
+   justify-content: space-between;
+   align-items: center;
+   
+   gap: 10%;
 
  } 
     .cards{
@@ -410,24 +519,52 @@ margin: 30px auto;
    grid-template-columns: 1fr 1fr 1fr ;
    gap: 5px;
 
- } 
+ }
+ 
+ .later {
+   display: contents;
+font-size: 30px;
+
+ }
  .aboutt {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:1fr 1fr;
   justify-content: center;
   align-items: center;
 
  } 
- .dos {
-  display: flex;
- flex-direction: column;
+ .aboutt img{
+   width: 100%;
+   margin-top: 20px;
   
 
  } 
+ .dos {
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  align-items: flex-start;
+  
+  font-size: 20px;
+
+ padding: 10px;
+
+ } 
+ .dos button{
+ margin-right: 20rem;
+  white-space: nowrap;
+
+ } 
+ .dos p{
+  line-height: 20px;
+  font-size: 15px;
+  text-align: justify;
+ }
+ 
  
  .quo{
   display: contents;
-
 
 
 }
@@ -437,8 +574,33 @@ margin: 30px auto;
  .othe{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
-
+gap: 2rem;
  } 
+ .slider{
+
+height: 25vh;
+
+
+
+}
+ 
+ .flex{
+display: grid;
+grid-template-columns: 2fr 3fr;
+
+
+justify-content: space-around;
+align-items: center;
+ }
+ .fto{
+display: grid;
+grid-template-columns: 3fr 2fr;
+justify-content: space-around;
+align-items: center;
+
+gap: 150px;
+ }
+ 
 }
  
  
