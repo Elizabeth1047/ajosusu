@@ -6,12 +6,13 @@
 }
 body{
     width: 100%;
-  background-color: #E5E5E5;
+  background-color: #FAFCFF;
+  overflow-x: hidden;
  }
 
  header{
   width: 100%;
-  height: 60vh;
+  height: 100vh;
    background-image : url('../images/Rectangle 21.svg') ;
     margin: auto;
     background-size:cover ;
@@ -78,7 +79,7 @@ body{
 
  .ter{
     width:80%;
-    margin: 5rem  auto;
+    margin: 10rem  auto;
     
 
  } 
@@ -307,7 +308,7 @@ font-size: 18px;
  .slider{
 background-color: white;
 width: 200px;
-height: 25vh;
+height: 220px;
 
 border-radius: 10px;
 margin: 10px;
@@ -370,17 +371,18 @@ padding: 40px;
  }
  .foot p{
 color: white;
-font-size: 10px;
+font-size: 13px;
 line-height: 20px;
  }
  .copyright{
 color: white;
-font-size: 10px;
+font-size: 13px;
 margin: 10px auto;
  }
  .foot h6{
 color: white;
 margin: 10px auto;
+font-size: 18px;
 
  }
  .fto{
@@ -477,9 +479,9 @@ font-size: 18px;
  
     gap: 40%;
  } 
-  .list{
+  .list a{
 color: white;
-
+text-decoration: none;
  }
  button{
    padding: 10px 40px;
@@ -489,6 +491,11 @@ color: white;
    border: 1px solid white ;
  color: #2996FD;
 margin-left: 70px;
+ }
+  button a{
+   
+ color: #2996FD;
+text-decoration: none;
  }
 
  .secimg{

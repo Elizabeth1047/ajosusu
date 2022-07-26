@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+    width: 100%;
+ }
+ .head{
+   width: 60%;
+    margin: 30px auto;
+ }
+ .header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+ .btnn{
+    padding: 8px 10px;
+    background-color: #FAFCFF;
+    
+    outline: none;
+    border: 1px solid  #2996FD;
+    border-radius: 8px;
+ }
+ .btnn a{
+    color: #2996FD;
+    text-decoration: none;
+ }
+ main{
+    width:50%;
+    margin: auto;
+ }
+ .foms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  }
+  .cols{
+  display: flex;
+ flex-direction: column;
+  
+  
+  } 
+  .cols h1{
+  font-size: 30px;
+  
+  
+  }   
+  .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 0px 5px 0px;
+ 
+  } 
+  .foms p{
+ color: rgba(117, 120, 126, 1);
+ margin: 10px 0px 10px 0px;
+ font-size: 15px;
+}
+.foms input{
+ background-color:#FAFCFF ; 
+ padding: 10px 10px 10px 10px; 
+ outline: none;
+ border: 1px solid  #D1D1D1;
+ border-radius: 10px;
+
+ 
+}
+
+  
+ .foms .btrn{
+ background-color: #2996FD;
+ padding: 10px 0px 10px 0px;  
+ outline: none;
+ border: 1px solid   #2996FD;
+border-radius: 8px;
+padding: 10px 60px;
+color: #FFFFFF;
+font-size: 15px;
+margin: 20px 0px 100px 0px;
+white-space: nowrap;
+
+ } 
+ .foms .btr{
+ background-color: #2996FD;
+ padding: 10px 0px 10px 0px;  
+ outline: none;
+ border: 1px solid   #2996FD;
+border-radius: 8px;
+padding: 10px 60px;
+color: #FFFFFF;
+font-size: 15px;
+margin: 20px 0px 50px 0px;
+white-space: nowrap;
+
+ } 
+ .onl p{
+ font-size: 15px;
+ color: black;
+ margin: 20px 0px 100px 0px;
+
+
+ } 
+ .onl a{
+ 
+ color: #2996FD;
+ 
+
+
+ } 
+ .color a{
+ color: black;
+ font-size: 13px;
+ 
+}  
+.aside{
+ 
+ width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 100vh;
+ background-image : url('../images/Rectangle\ 35\ \(1\).png') ;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ display: none;
+} 
+.asid{
+ 
+ width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 100vh;
+ background-image : url('../images/Rectangle\ 35.png') ;
+    background-size:cover ;
+   background-repeat: no-repeat;
+ display: none;
+} 
+.mage {
+   width: 90%;
+   
+ 
+} 
+ .imga {
+    width: 100%;
+  display: flex;
+   justify-content: flex-end;
+ 
+}  
+.imgas {
+    width: 100%;
+  position: relative;
+  top: 80vh;
+ 
+  
+ 
+}
+ 
+  
+
+
+
+
+  
+
+
+
+ @media (min-width:768px) {
+    
+ } 
+ @media (min-width:1024px) {
+   .flex{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ 
+} 
+.aside{
+    display: block;
+    
+ 
+}
+  
+.asid{
+    display: block;
+    
+ 
+}
+  
+ 
+ 
+   
+ } 

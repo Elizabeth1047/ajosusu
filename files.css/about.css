@@ -6,7 +6,7 @@
 }
 body{
     width: 100%;
-  background-color: #E5E5E5;
+  background-color: #FAFCFF;
  }
 
  header{
@@ -57,7 +57,12 @@ body{
  } 
  .inner h1{
   font-size: 40px;
-    
+    color: #FFFFFF;
+  
+ } 
+ .inner p{
+  font-size: 18px;
+    color: #FFFFFF;
   
  } 
    .those img{
@@ -67,8 +72,11 @@ body{
  .inquiry {
     width: 80%;
     margin: 40px auto;
+   
     
  }
+ 
+ 
  .singles {
    display: flex;
    flex-direction: column;
@@ -77,19 +85,78 @@ body{
    margin: 40px auto;
 text-align: center;
  }
- .mar{
-  margin: 20px auto;
+ 
+ .mar h1{
+ font-size: 30px;
+  line-height: 30px;
+  margin: 30px 0px;
+
     
   
  } 
  .forms{
-  background-color: white;
- border-radius: 8px;
- padding: 40px;
- 
-    
-  
+ max-width: 450px;
+ margin: auto;
+  background-color: #FFFFFF;
+  padding: 40px;
+  border: 1px solid  #D6D8E5;
+  border-radius: 10px;
  } 
+ .foms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .cols{
+  display: flex;
+ flex-direction: column;
+  
+  
+  }  
+  .col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  } 
+  .forms p{
+ color: rgba(117, 120, 126, 1);
+ margin: 10px 0px 10px 0px;
+ font-size: 13px;
+}
+.forms input{
+ background-color:#FAFCFF ; 
+ padding: 10px 10px 10px 10px;  
+ outline: none;
+ border: 1px solid  #D1D1D1;
+ border-radius: 10px;
+}
+.forms textarea{
+ background-color:#FAFCFF ; 
+ padding: 10px 0px 10px 0px;  
+ outline: none;
+ border: 1px solid  #D1D1D1;
+border-radius: 10px;
+ }
+ .forms .btr{
+ display: flex;
+justify-content: flex-end;
+margin: 20px 5px 20px 0px;
+
+ } 
+  
+ .forms .btrn{
+ background-color: #2996FD;
+ padding: 10px 0px 10px 0px;  
+ outline: none;
+ border: 1px solid   #2996FD;
+border-radius: 8px;
+padding: 10px 60px;
+color: #FFFFFF;
+font-size: 15px;
+
+
+ }    
  .fir{
   padding: 10px 5px;
   background-color: grey;
@@ -129,6 +196,13 @@ margin: 30px auto;
 
 
   @media (min-width:768px) {
+    .cols{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  
+  
+  }  
    
  } 
  @media (min-width:1024px) {
@@ -156,9 +230,9 @@ margin: 30px auto;
  
     gap: 40%;
  } 
-  .list{
+  .list a{
 color: white;
-
+text-decoration: none;
  }
  button{
    padding: 10px 30px;
@@ -169,6 +243,11 @@ color: white;
  color: #2996FD;
 margin-left: 70px;
 font-size: 20px;
+ }
+  button a{
+   
+ color: #2996FD;
+text-decoration: none;
  }
 
  .secimg{
@@ -191,5 +270,18 @@ align-items: center;
 
 gap: 150px;
  }
+ .gridss {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+   align-items: center;
+    
+ }
+  .mar h2{
+  
+    text-align: justify;
+  
+ } 
+ 
   }
  

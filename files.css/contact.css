@@ -6,7 +6,7 @@
 }
 body{
     width: 100%;
-  background-color: #E5E5E5;
+  background-color: #FAFCFF;
  }
 
  header{
@@ -56,8 +56,13 @@ body{
   
  } 
  .inner h1{
-  font-size: 40px;
-    
+  font-size: 50px;
+    color: white;
+  
+ } 
+ .inner p{
+  font-size: 20px;
+    color: white;
   
  } 
    .those img{
@@ -78,15 +83,18 @@ body{
    text-align: center;
  } 
  .grid h1{
-  line-height: 30px;
+  line-height: 60px;
+  font-size: 40px;
  } 
  .grid p{
-  line-height: 25px;
+  line-height: 30px;
+  font-size: 18px;
   
  } 
  .bout{
- 
+ margin: 10px 0px 100px 0px;
   background-color: #2996FD;
+  padding: 20px;
 
  } 
  .about{
@@ -123,14 +131,11 @@ body{
    margin-top: 30px;
    
  } 
- .quo{
-  display: none;
-   
- } 
-
-.wao{
+ 
+.dos h3{
  margin: 20px auto;
-
+text-align: center;
+font-size: 25px;
  }
  .buttons{
  width: 80%;
@@ -149,10 +154,25 @@ body{
  text-align: center;
 
  }
-  .end p{
-color: #2996FD;
- text-align: end;
+  .end {
+    background-color: white;
 
+ text-align: center;
+ display: block;
+ padding: 15px 20px;
+
+ }
+ .end button{
+ background-color: white;
+outline: none;
+border: 1px solid white;
+font-size: 15px;
+font-weight: bold;
+color: #2996FD;
+ }
+ .end:hover{
+
+box-shadow: 1px 1px 3px 3px hsl(209, 62%, 62%);
  }
  .btnns{
 background-color: white;
@@ -166,16 +186,16 @@ font-size: 12px;
 
 
  }
+ .btnns:hover{
+
+box-shadow: 1px 1px 3px 3px hsl(209, 62%, 62%);
+ }
  .btnns img{
 margin-left: 220px;
 
 
  }
- .btnns img{
-margin-left: 200px;
-
-
- }
+ 
  .hto{
 margin-bottom: 50px;
 
@@ -229,8 +249,8 @@ margin: 30px auto;
  } 
  
  .aboutt {
-  display: grid;
-  grid-template-columns:1fr 1fr;
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 gap: 5%;
@@ -253,14 +273,7 @@ gap: 5%;
  padding: 10px;
 
  } 
- .quo{
-  display: contents;
-
-
-}
-.woa{
-  display: none;
- }
+ 
  
  
  
@@ -288,9 +301,9 @@ gap: 5%;
  
     gap: 40%;
  } 
-  .list{
+  .list a{
 color: white;
-
+text-decoration: none;
  }
  button{
    padding: 10px 30px;
@@ -301,6 +314,11 @@ color: white;
  color: #2996FD;
 margin-left: 70px;
 font-size: 20px;
+ }
+  button a{
+   
+ color: #2996FD;
+text-decoration: none;
  }
 
  .secimg{
