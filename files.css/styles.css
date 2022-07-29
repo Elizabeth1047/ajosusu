@@ -18,6 +18,9 @@ img {
 }
 
 .head {
+  background-color: rgba(10, 55, 97, 0.3);
+ height: 100vh;
+ 
   background-image: url("../images/Rectangle 21.svg");
   width: 100%;
   margin: auto;
@@ -25,6 +28,7 @@ img {
   height: 10vh;
   z-index: 5;
 }
+
 
 .ul {
   text-align: center;
@@ -36,7 +40,7 @@ img {
   height: 70vh;
   position: fixed;
   left: 100%;
-  margin: 0px 0px 0px 50%;
+  margin: 0px 0px 0px 40%;
   border-radius: 50% 0px 0px 50%;
   transition: 0.8s ease-in-out;
 }
@@ -309,13 +313,14 @@ margin: 0 auto;
   width: 80%;
   margin: 0 auto;
   padding: 100px 0px;
-  overflow: auto;
+ 
 }
 
 .slide {
   display: flex;
   justify-content: space-between;
   gap: 25px;
+   overflow: auto;
 }
 .slider {
   width: 200px;
