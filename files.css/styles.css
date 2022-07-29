@@ -5,14 +5,51 @@
   font-family: sans-serif;
 }
 body {
+  width: 100%;
   background-color: #fafcff;
 }
 
 img {
   max-width: 100%;
 }
-header {
+.nav {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.head {
+  background-image: url("../images/Rectangle 21.svg");
   width: 100%;
+  margin: auto;
+  position: fixed;
+  height: 10vh;
+  z-index: 5;
+}
+
+.ul {
+  text-align: center;
+
+  color: rgb(170, 197, 197);
+  overflow: hidden;
+  list-style: none;
+  background-color: rgba(10, 55, 97, 0.7);
+  height: 70vh;
+  position: fixed;
+  left: 100%;
+  margin: 0px 0px 0px 50%;
+  border-radius: 50% 0px 0px 50%;
+  transition: 0.8s ease-in-out;
+}
+.head ul a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  overflow: hidden;
+}
+
+header {
   height: 100vh;
   background-image: url("../images/Rectangle 21.svg");
   margin: auto;
@@ -20,42 +57,47 @@ header {
   background-repeat: no-repeat;
 }
 
-.nav {
-  width: 80%;
-  margin: auto;
+.img1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.reveal {
+  max-width: 60%;
+  padding: 70px 90px;
+}
+.slid {
+  left: 0%;
+}
+.btnt {
+  white-space: nowrap;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid white;
+  color: #2996fd;
+}
+ul .btnt a {
+  color: #2996fd;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.navi {
-  display: none;
-}
-.navi .list {
-  margin: 20px auto;
-  text-decoration: none;
-  list-style-type: none;
-}
 .headflex {
   width: 80%;
   margin: auto;
+  padding-top: 6rem;
 }
 
-.img1 {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  gap: 60%;
-  margin-left: 2%;
-  padding: 2%;
-}
-
-.nav h1 {
-  font-size: 25px;
+.headflex h1 {
+  font-size: 30px;
   line-height: 30px;
   color: white;
-  margin: 30px auto 10px auto;
+  margin: 0px auto 10px auto;
 }
-.nav p {
-  font-size: 9px;
-  line-height: 15px;
+.headflex p {
+  font-size: 15px;
+  line-height: 20px;
   color: white;
   margin: 10px auto;
 }
@@ -63,7 +105,6 @@ header {
 .those {
   position: relative;
   width: 80%;
-  margin: auto;
 }
 .first {
   position: absolute;
@@ -71,14 +112,15 @@ header {
 }
 .second {
   position: absolute;
-  top: 1.5rem;
-  left: 3rem;
-  width: 11rem;
+  top: 1.9rem;
+  left: 3.5rem;
+  width: 13rem;
 }
 .third {
   position: absolute;
-  top: 13rem;
+  top: 17rem;
   left: 4rem;
+  width: 12rem;
 }
 
 .ter {
@@ -95,7 +137,7 @@ header {
   font-size: 40px;
 }
 .single {
-  width: 90%;
+  max-width: 300px;
   border: 2px solid #2996fd;
   margin: 50px auto;
   padding: 20px;
@@ -175,13 +217,20 @@ header {
   margin: 20px auto;
 }
 .thrift p {
-  line-height: 15px;
-  font-size: 10px;
+  line-height: 20px;
+  font-size: 15px;
   margin-bottom: 20px;
-  width: 50%;
-  margin: auto;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.othe {
+  width: 100%;
+  
 }
 .the {
+  width: 100%;
+max-width: 300px;
+margin: 0 auto;
   border: 1px solid #2996fd;
   padding: 20px;
   border-radius: 10px;
@@ -202,7 +251,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 20px auto;
+  width: 150px;
 }
 .mont .go {
   font-size: 30px;
@@ -250,39 +300,41 @@ header {
 }
 .for h2 {
   color: white;
-  margin: 10px 0px 15px 40px;
+  margin: 0px 0px 40px 40px;
 
-  font-size: 18px;
+  font-size: 25px;
 }
+
 .fo {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
+  padding: 100px 0px;
   overflow: auto;
-  padding: 40px;
 }
 
 .slide {
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 .slider {
-  background-color: white;
   width: 200px;
-  height: 220px;
 
-  border-radius: 10px;
-  margin: 10px;
+  margin-bottom: 30px;
 }
-.slider img {
-  width: 200px;
-  height: 100px;
+.imgh {
+  width: 100%;
+  margin: auto;
 }
 
 .text {
   font-size: 15px;
   line-height: 20px;
-  margin: 10px auto;
+  margin: -4px auto;
   text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 0px 0px 20px 20px;
 }
 .text p {
   color: #75787e;
@@ -334,7 +386,7 @@ header {
 @media (min-width: 768px) {
   header {
     width: 100%;
-    height: 40vh;
+    height: 65vh;
     background-image: url("../images/Rectangle 21.svg");
     margin: auto;
     background-size: cover;
@@ -351,8 +403,9 @@ header {
     align-items: center;
     align-self: center;
     gap: 5px;
-
     padding: 20px;
+
+    padding-top: 8rem;
   }
   .those {
     position: relative;
@@ -379,10 +432,11 @@ header {
   .othe {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
+    gap: 20px;
   }
   .for h2 {
     color: white;
@@ -392,25 +446,17 @@ header {
   }
 }
 @media (min-width: 1240px) {
-  .navi {
-    display: contents;
-  }
-  ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
+  .nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
-  .img1 {
-    gap: 40%;
+  .ul {
+    display: contents;
+    font-size: 18px;
   }
-  .list a {
-    color: white;
-    text-decoration: none;
-  }
-  button {
-    padding: 10px 40px;
+
+  .btnt {
     white-space: nowrap;
     border-radius: 8px;
     background-color: white;
@@ -418,9 +464,10 @@ header {
     color: #2996fd;
     margin-left: 70px;
   }
-  button a {
+  ul .btnt a {
     color: #2996fd;
     text-decoration: none;
+    font-size: 18px;
   }
 
   .secimg {
@@ -429,7 +476,7 @@ header {
 
   header {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url("../images/Rectangle 2134.svg");
     margin: auto;
     background-size: cover;
