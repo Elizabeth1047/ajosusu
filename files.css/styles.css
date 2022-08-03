@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 body {
   width: 100%;
@@ -10,105 +10,102 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 .nav {
   width: 80%;
   margin: 0px auto;
 }
 
-.head {
-  background-color: rgba(10, 55, 97, 0.3);
- height: 100vh;
- 
+header {
+  height: 140vh;
   background-image: url("../images/Rectangle 21.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  margin: auto;
-  position: fixed;
-  height: 10vh;
-  z-index: 5;
+  z-index: 1;
+}
+.img2 {
+  width: 50%;
 }
 
-
-.ul {
-  text-align: center;
-
-  color: rgb(170, 197, 197);
-  overflow: hidden;
-  list-style: none;
-  background-color: rgba(10, 55, 97, 0.7);
-  height: 450px;
-  position: fixed;
-  left: 100%;
-  margin: 0px 0px 0px 40%;
-  border-radius: 50% 0px 0px 50%;
-  transition: 0.8s ease-in-out;
-}
-.head ul a {
-  display: inline-block;
+a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
-  padding: 10px 30px;
-  overflow: hidden;
+}
+.ul {
+  display: none;
+}
+.uul li {
+  padding: 20px 30px;
+  list-style-type: none;
+}
+.uul {
+  text-align: center;
+  background-color: rgba(10, 55, 97, 0.7);
+  position: fixed;
+  align-items: center;
+  right: 100%;
+
+  border-radius: 50% 0% 0% 50%;
+  z-index: 2;
+  padding: 40px 60px;
+  transition: 0.8s ease-in-out;
+}
+.ul {
+  list-style-type: none;
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
 }
 
-header {
-  height: 100vh;
-  background-image: url("../images/Rectangle 21.svg");
-  margin: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
+.reveal {
+  display: block;
+}
+.slid {
+  right: 0%;
 }
 
 .img1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px auto;
+  padding: 20px 0px;
 }
-.reveal {
-  max-width: 60%;
-  padding: 70px 90px;
-}
-.slid {
-  left: 0%;
-}
+
 .btnt {
-  white-space: nowrap;
   border-radius: 8px;
   background-color: white;
   border: 1px solid white;
   color: #2996fd;
+  padding: 10px 20px;
 }
 ul .btnt a {
   color: #2996fd;
   text-decoration: none;
-  font-size: 18px;
 }
 
 .headflex {
   width: 80%;
   margin: auto;
-  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .headflex h1 {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 40px;
   color: white;
-  margin: 0px auto 10px auto;
 }
 .headflex p {
-  font-size: 15px;
-  line-height: 20px;
   color: white;
-  margin: 10px auto;
 }
 
 .those {
   position: relative;
-  width: 80%;
+  z-index: 1;
 }
 .first {
   position: absolute;
@@ -120,16 +117,17 @@ ul .btnt a {
   left: 3.5rem;
   width: 13rem;
 }
-.third {
-  position: absolute;
-  top: 17rem;
-  left: 4rem;
-  width: 12rem;
+
+.tgt {
+  position: sticky;
+  top: 51rem;
+  width: 150px;
+  margin: auto;
 }
 
 .ter {
   width: 80%;
-  margin: 10rem auto;
+  margin: 5rem auto;
 }
 
 .cards img {
@@ -138,27 +136,23 @@ ul .btnt a {
 }
 .later {
   display: none;
-  font-size: 40px;
 }
 .single {
-  max-width: 300px;
+  max-width: 400px;
   border: 2px solid #2996fd;
   margin: 50px auto;
   padding: 20px;
   border-radius: 8px;
-  gap: 20px;
 }
 .single h3,
 .single img,
 .single p {
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .single h3 {
   color: #2996fd;
 }
-.single p {
-  line-height: 25px;
-}
+
 .sin {
   background-color: #2996fd;
 }
@@ -172,7 +166,6 @@ ul .btnt a {
 .about {
   width: 80%;
   margin: auto;
-
   padding: 10px;
 }
 .woa {
@@ -190,18 +183,12 @@ ul .btnt a {
 .about p,
 .about h3 {
   color: white;
-  line-height: 70px;
 }
 .about h3 {
   margin-top: 30px;
 }
 .quo {
   display: none;
-}
-
-.about p {
-  line-height: 20px;
-  font-size: 10px;
 }
 .about button {
   padding: 10px 30px;
@@ -213,7 +200,7 @@ ul .btnt a {
 }
 .thrift {
   width: 80%;
-  margin: auto;
+  margin: 100px auto;
   text-align: center;
 }
 
@@ -221,24 +208,15 @@ ul .btnt a {
   margin: 20px auto;
 }
 .thrift p {
-  line-height: 20px;
-  font-size: 15px;
-  margin-bottom: 20px;
-  max-width: 600px;
-  margin: 20px auto;
+  margin: 20px 3rem 40px 3rem;
 }
-.othe {
-  width: 100%;
-  
-}
+
 .the {
-  width: 100%;
-max-width: 300px;
-margin: 0 auto;
+  max-width: 400px;
+  margin: 20px auto;
   border: 1px solid #2996fd;
-  padding: 20px;
+  padding: 20px 80px ;
   border-radius: 10px;
-  margin-bottom: 1rem;
 }
 
 .the h3 {
@@ -251,7 +229,6 @@ margin: 0 auto;
   padding: 30px;
   text-align: center;
   color: white;
-  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,6 +237,9 @@ margin: 0 auto;
 }
 .mont .go {
   font-size: 30px;
+}
+.mont .got {
+  color: #2996fd;
 }
 
 .spa {
@@ -290,9 +270,7 @@ margin: 0 auto;
 .btnn {
   background-color: white;
   color: #2996fd;
-
   padding: 10px 30px;
-
   white-space: nowrap;
   border: 1px solid white;
   margin-top: 15px;
@@ -305,50 +283,43 @@ margin: 0 auto;
 .for h2 {
   color: white;
   margin: 0px 0px 40px 40px;
-
-  font-size: 25px;
 }
 
 .fo {
   width: 80%;
   margin: 0 auto;
   padding: 100px 0px;
- 
 }
 
 .slide {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
-   overflow: auto;
+  gap: 10px;
+  overflow: auto;
 }
 .slider {
   width: 200px;
-
-  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
 }
-.imgh {
+.imgh img {
   width: 100%;
-  margin: auto;
+  border-radius: 10px 10px 0 0;
 }
 
 .text {
-  font-size: 15px;
-  line-height: 20px;
-  margin: -4px auto;
   text-align: center;
-  background-color: white;
   padding: 15px;
-  border-radius: 0px 0px 20px 20px;
 }
 .text p {
   color: #75787e;
+  margin-bottom: 10px;
 }
 .thod {
-  margin-top: 90px;
+  margin: 90px 10px auto 10px;
 }
-.thod {
-  margin: auto 10px;
+.thod img {
+  width: 40px;
 }
 .des {
   background-color: #b9b7b7;
@@ -369,31 +340,29 @@ margin: 0 auto;
 }
 .foot p {
   color: white;
-  font-size: 13px;
-  line-height: 20px;
 }
 .copyright {
   color: white;
-  font-size: 13px;
+
   margin: 10px auto;
 }
-.foot h6 {
+.foot h3 {
   color: white;
   margin: 10px auto;
-  font-size: 18px;
 }
 .fto {
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
 }
+.img22 {
+  width: 180px;
+}
 
 @media (min-width: 768px) {
   header {
     width: 100%;
-    height: 65vh;
-    background-image: url("../images/Rectangle 21.svg");
-    margin: auto;
+    background-image: url("../images/desktop\ img.svg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -403,25 +372,16 @@ margin: 0 auto;
   }
   .headflex {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    gap: 5px;
-    padding: 20px;
-
-    padding-top: 8rem;
-  }
-  .those {
-    position: relative;
-    width: 90%;
-    margin: auto;
-    bottom: 6rem;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-between;
   }
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 2rem;
+  }
+  .down {
+    grid-column: span 2;
   }
 
   .quo {
@@ -430,80 +390,66 @@ margin: 0 auto;
   .wao {
     margin: 20px auto;
   }
-  .about p {
-    line-height: 25px;
-    font-size: 20px;
-  }
+  
   .othe {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    justify-content: center;
-    align-items: center;
-
-    gap: 20px;
+    gap: 2rem;
   }
+  
   .for h2 {
     color: white;
     margin: 10px 0px 15px 40px;
     text-align: justify;
-    font-size: 18px;
   }
 }
 @media (min-width: 1240px) {
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .ul {
-    display: contents;
-    font-size: 18px;
+    display: grid;
   }
-
-  .btnt {
-    white-space: nowrap;
-    border-radius: 8px;
-    background-color: white;
-    border: 1px solid white;
-    color: #2996fd;
-    margin-left: 70px;
-  }
-  ul .btnt a {
-    color: #2996fd;
-    text-decoration: none;
-    font-size: 18px;
+  .uul {
+    display: none;
   }
 
   .secimg {
     display: none;
   }
 
-  header {
-    width: 100%;
-    height: 70vh;
-    background-image: url("../images/Rectangle 2134.svg");
-    margin: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
+  .btnt {
+    padding: 10px 30px;
   }
-  .headflex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
+  ul .btnt a {
+    color: #2996fd;
+    text-decoration: none;
+  }
 
-    gap: 10%;
+  .secimg {
+    display: none;
   }
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+  }
+
+  .down {
+    grid-column: span 1;
+  }
+  .middle {
+    position: relative;
+    top: 60px;
+  }
+  .sin {
+    grid-column: span 1;
+    position: relative;
+    top: 20px;
+  }
+  .down {
+    position: relative;
+    top: 100px;
   }
 
   .later {
-    display: contents;
-    font-size: 30px;
+    display: block;
   }
   .aboutt {
     display: grid;
@@ -522,8 +468,6 @@ margin: 0 auto;
     justify-content: flex-start;
     align-items: flex-start;
 
-    font-size: 20px;
-
     padding: 10px;
   }
   .dos button {
@@ -531,13 +475,11 @@ margin: 0 auto;
     white-space: nowrap;
   }
   .dos p {
-    line-height: 20px;
-    font-size: 15px;
     text-align: justify;
   }
 
   .quo {
-    display: contents;
+    display: block;
   }
   .woa {
     display: none;
@@ -547,15 +489,16 @@ margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
-  .slider {
-    height: 25vh;
-  }
-
   .flex {
     display: grid;
     grid-template-columns: 2fr 3fr;
-
     justify-content: space-around;
+    align-items: center;
+  }
+  .thod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .fto {
