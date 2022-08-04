@@ -124,6 +124,10 @@ ul .btnt a {
   margin: 30px auto;
   text-align: center;
 }
+.texted h1 {
+  margin: 10px auto;
+  line-height: 30px;
+}
 .ho {
   margin: 20px auto;
 }

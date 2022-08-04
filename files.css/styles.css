@@ -18,7 +18,8 @@ img {
 }
 
 header {
-  height: 140vh;
+  height: 180vh;
+ max-height: 150vh;
   background-image: url("../images/Rectangle 21.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +48,7 @@ a {
   align-items: center;
   right: 100%;
 
-  border-radius: 50% 0% 0% 50%;
+  border-radius: 50% 0% 50% 50%;
   z-index: 2;
   padding: 40px 60px;
   transition: 0.8s ease-in-out;
@@ -64,7 +65,7 @@ a {
   display: block;
 }
 .slid {
-  right: 0%;
+ right: 0;
 }
 
 .img1 {
@@ -96,16 +97,17 @@ ul .btnt a {
 }
 
 .headflex h1 {
-  font-size: 40px;
   color: white;
 }
 .headflex p {
+  margin: 20px auto;
   color: white;
 }
 
 .those {
   position: relative;
   z-index: 1;
+ 
 }
 .first {
   position: absolute;
@@ -243,7 +245,7 @@ ul .btnt a {
 }
 
 .spa {
-  font-size: 10px;
+  font-size: 6px;
 }
 .spat {
   width: 15px;

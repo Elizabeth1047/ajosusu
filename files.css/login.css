@@ -43,9 +43,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-.cols h1 {
-  font-size: 30px;
-}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -55,7 +53,7 @@ main {
 .foms p {
   color: rgba(117, 120, 126, 1);
   margin: 10px 0px 10px 0px;
-  font-size: 15px;
+  
 }
 .foms input {
   background-color: #fafcff;
@@ -73,7 +71,7 @@ main {
   border-radius: 8px;
   padding: 10px 60px;
   color: #ffffff;
-  font-size: 15px;
+ 
   margin: 20px 0px 100px 0px;
   white-space: nowrap;
 }
@@ -85,12 +83,12 @@ main {
   border-radius: 8px;
   padding: 10px 60px;
   color: #ffffff;
-  font-size: 15px;
+ 
   margin: 20px 0px 50px 0px;
   white-space: nowrap;
 }
 .onl p {
-  font-size: 15px;
+  
   color: black;
   margin: 20px 0px 100px 0px;
 }
@@ -99,7 +97,7 @@ main {
 }
 .color a {
   color: black;
-  font-size: 13px;
+  
 }
 .aside {
   width: 100%;
